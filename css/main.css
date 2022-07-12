@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Rubik:wght@300;400;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* NAVBAR */
+.navbar {
+  background-color: #fff;
+  font-family: "Rubik", sans-serif;
+}
+
+.navbar a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #000;
+}
+
+.navbar a:hover {
+  color: #81cd23;
+}
+
+.ms-logo {
+  width: 120px;
+}
+
+.right-menu a {
+  font-size: 1.2em;
+}
+
+.search-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee;
+  border-radius: 5px;
+  padding: 4px 8px;
+}
+
+.search-box input {
+  width: 100px;
+  border: none;
+  outline: none;
+  background: none;
+}
+
+.search-box .search-box ::placeholder {
+  color: gray;
+  font-size: 0.8em;
+}
+
+/* MOBILE MENU*/
+
+.ham-btn {
+  border: none;
+  background: none;
+  font-size: 1.5em;
+}
+
+.close-icon {
+  display: none;
+}
+
+.sidebar {
+  width: 100%;
+  position: absolute;
+  top: 52px;
+  line-height: 3;
+  background-color: #f2f2f2;
+  z-index: 99;
+  transition: all 0.5s;
+}
+
+.sidebar a {
+  text-decoration: none;
+  font: lighter 1em "Rubik", sans-serif;
+  color: #000;
+  letter-spacing: 0.1em;
+  padding-left: 20px;
+}
+
+.sidebar a:hover {
+  text-decoration: none;
+  color: #81cd23;
+}
+
+.sidebar li {
+  list-style: none;
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.slide {
+  transform: translateX(-100%);
+}
+
+/* SHOWCASE */
+
+.showcase .ready-btn {
+  position: absolute;
+  bottom: 200px;
+  left: 50px;
+  color: #fff;
+  background-color: dodgerblue;
+  font-family: "Rubik", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.showcase .ready-btn:hover {
+  background-color: #1d2671;
+}
+
+.explore-btn {
+  color: #fff;
+  background-color: dodgerblue;
+  font-weight: 500;
+  font-family: "Rubik", sans-serif;
+  padding: 10px;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.explore-btn:hover {
+  background-color: #1d2671;
+  color: #fff;
+}
+
+/* PRODUCTS SECTION 1 */
+
+.ms-products-1 {
+  font-family: "Rubik", sans-serif;
+  margin-bottom: 20px;
+}
+
+.ms-products-1 .card-img-top {
+  object-fit: cover;
+}
+
+.ms-products-1 .green-btn {
+  width: 50%;
+  color: #008f2b;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 500;
+  margin: 0 auto;
+  padding: 5px;
+  border: 2px solid #008f2b;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.green-btn:hover {
+  color: #fff;
+  background-color: #008f2b;
+}
+
+/* PRODUCTS SECTION 2 */
+.ms-products-2 .teams-text {
+  padding: 10px;
+  text-align: center;
+  font-family: "Fredoka One", sans-serif;
+  font-size: 3.7em;
+  background: linear-gradient(to right, #61045f, #aa076b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.ms-products-2 .teams-video {
+  width: 100%;
+}
+
+.ms-products-2 .teams-btn {
+  font-family: "Rubik", sans-serif;
+  color: #c33764;
+  margin: 20px;
+  padding: 10px;
+  background: none;
+  border: 2px solid #c33764;
+  border-radius: 10px;
+}
+.ms-products-2 .teams-btn:hover {
+  background: #c33764;
+  color: #fff;
+}
+
+/* PRODUCTS SECTION 3 */
+.ms-products-3 .azure,
+.outlook {
+  position: absolute;
+  bottom: 50px;
+  left: 20px;
+}
+
+.white-btn {
+  font-family: "Rubik", sans-serif;
+  color: #fff;
+  font-size: 0.9em;
+  padding: 8px;
+  background: none;
+  border: 3px solid #fff;
+  border-radius: 10px;
+}
+
+/* PRODUCTS SECTION 4 */
+
+.ms-products-4 {
+  background: url(/images/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Rubik", sans-serif;
+}
+
+/* LINKS */
+
+.ms-links {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e2e2e2;
+  font-family: "Rubik", sans-serif;
+  line-height: 2.2em;
+  padding: 50px;
+}
+
+.ms-links li {
+  list-style: none;
+}
+
+.ms-links .ms-links-head {
+  font-weight: 700;
+  color: #616161;
+}
+
+.ms-links a {
+  font-size: 12px;
+  color: #616161;
+  text-decoration: none;
+}
+
+/* SOCIAL LINKS */
+
+.social-links {
+  font-size: 1.5em;
+  background-color: #e2e2e2;
+  padding-left: 80px;
+}
+
+.social-links a {
+  text-decoration: none;
+  margin-right: 15px;
+}
+
+/* FOOTER */
+
+.ms-footer {
+  background-color: #e2e2e2;
+}
+
+.ms-footer-inner {
+  display: flex;
+  justify-content: space-between;
+  font-family: "Rubik", sans-serif;
+  padding: 20px 20px 20px 80px;
+}
+
+.ms-footer-inner a {
+  margin-right: 20px;
+  text-decoration: none;
+  color: #616161;
+}
+
+.left-footer {
+  display: flex;
+  font-size: 12px;
+  color: #616161;
+}
+
+.left-footer:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.right-footer {
+  display: flex;
+  font-size: 12px;
+}
+
+.right-footer a:hover {
+  color: #000;
+  text-decoration: underline;
+}
+
+.copyright-section{
+  padding: 10px;
+    background: linear-gradient(to right, #232526, #414345)
+}
+
+.copyright-text{
+  color: #fff;
+  text-align: center;  
+  font-family: "Rubik", sans-serif;
+  font-size: 0.9rem;
+}
+/* MEDIA QUERIES */
+
+@media (min-width: 992px) {
+  .explore-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 992px) {
+  .ready-btn {
+    display: none;
+  }
+
+  .left-menu {
+    display: none;
+  }
+
+  .ms-products-2 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .ms-products-2 .teams-text {
+    font-size: 2.5em;
+    color: #c33764;
+  }
+
+  .ms-products-4 {
+    flex-direction: column;
+      background: linear-gradient(to right, #0f0c29, #302b63, #24243e)
+  }
+
+  .ms-products-4 div:nth-child(2) {
+    padding: 20px;
+  }
+  .ms-links {
+    flex-direction: column;
+    padding: 30px 0px 0px 0px;
+  }
+  .ms-footer-inner {
+    line-height: 2.2em;
+    flex-direction: column;
+    padding-left: 10px;
+  }
+
+  .left-footer {
+    margin-left: 30px;
+  }
+
+  .right-footer {
+    flex-direction: column;
+    margin-left: 30px;
+  }
+
+  .social-links {
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+
+  .ham-btn {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .ms-logo {
+    margin-left: 130px;
+  }
+
+  .user-icon {
+    display: none;
+  }
+
+  .search-box input {
+    display: none;
+  }
+
+  .search-box {
+    background: none;
+  }
+    .copyright-text{
+      letter-spacing: 0.8px;
+color: #fff000;
+    }
+}
+
+@media (max-width: 480px) {
+  .ms-logo {
+    margin-left: 50px;
+    margin-bottom: 3px;
+  }
+
+  .search-box {
+    display: none;
+  }
+}

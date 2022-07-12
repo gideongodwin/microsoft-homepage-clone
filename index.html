@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Microsoft - Official Home Page Clone</title>
+    <link rel="icon" href="./images/microsoft.png" />
+    <link rel="stylesheet" href="./css/main.css"/>
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"rel="stylesheet"integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"crossorigin="anonymous"/>
+
+    <!-- BOOTSTRAP ICONS -->
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.8.3/font/bootstrap-icons.min.css" integrity="sha512-YzwGgFdO1NQw1CZkPoGyRkEnUTxPSbGWXvGiXrWk8IeSqdyci0dEDYdLLjMxq1zCoU0QBa4kHAFiRhUL3z2bow==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+  <body>
+
+<!-- NAVBAR -->
+
+<nav class="navbar">
+  <div class="container">
+    <div class="d-flex justify-content-center align-items-center">
+
+      <button class="ham-btn" id="menu-btn">
+            <i class="bi bi-list open-icon"></i>
+            <i class="bi bi-x-lg close-icon"></i>
+      </button>
+    
+    <div class="microsoft">
+      <a href="index.html"><img src="./images/microsoft-logo.png" alt="Microsoft Logo" class="ms-logo"/></a>
+    </div>
+
+    </div>
+
+    <div class="left-menu">
+      <a href="#">Microsoft 365</a>
+      <a href="#">Xbox</a>
+      <a href="#">Windows</a>
+      <a href="#">Office</a>
+      <a href="#">Support</a>
+    </div>
+
+    <div class="right-menu d-flex justify-content-center align-items-center">
+      <div class="search-box">
+        <input type="text" placeholder="Search">
+          <a href="#"><i class="bi bi-search"></i></a>
+      </div>
+          <a href="#"><i class="bi bi-cart3"></i></a>
+          <a href="#" class="user-icon"><i class="bi bi-person-plus"></i></a>
+    </div>
+
+  </div>
+</nav>
+
+<!-- MOBILE MENU -->
+
+<div class="sidebar slide" id="side-menu">
+  <li><a href="#">Microsoft 365 <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Office <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Windows <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Xbox <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Support <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Software <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">PCs & Devices <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Entertainment <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Business <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Developer & IT <i class="bi bi-chevron-right"></i></a></li>
+  <li><a href="#">Other <i class="bi bi-chevron-right"></i></a></li>
+</div>
+
+<main>
+<!-- SHOWCASE -->
+<section class="showcase position-relative">
+  <video src="./video/W11.mp4" class="w-100" muted loop autoplay></video>
+
+  <a href="#" class="ready-btn">See If Your PC Is Ready <i class="bi bi-chevron-right"></i></a>
+
+
+  <div class="mt-3 text-center">
+        <a href="#" class="explore-btn">EXPLORE WINDOWS 11 <i class="bi bi-chevron-right"></i></a>
+  </div>
+
+</section>
+
+<!--PRODUCTS SECTION 1 -->
+
+<section class="ms-products-1 card-group mx-3 my-5">
+      <div class="card m-2 border border-0">
+        <img src="./images/onenote.jpg" class="card-img-top img-fluid rounded" style="height: 50vh" alt="OneNote"/>
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">OneNote</h5>
+          <p class="card-text">With OneNote across all your devices, you&#39ll never miss a flash of inspiration.</p>
+        </div>
+          <a href="#" class="green-btn">LEARN MORE</a>
+      </div>
+      
+      <div class="card m-2  border border-0 ">
+        <img src="./images/365.jpg" class="card-img-top img-fluid rounded" style="height: 50vh" alt="Office 365"/>
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">Microsoft 365</h5>
+          <p class="card-text">Premium Office apps, extra cloud storage, advanced security, and more all in one convenient subscription.</p>
+        </div>
+          <a href="#" class="green-btn">LEARN MORE</a>
+      </div>
+
+      <div class="card m-2  border border-0">
+        <img src="./images/onedrive.webp" class="card-img-top img-fluid rounded" style="height: 50vh" alt="OneDrive"/>
+        <div class="card-body">
+          <h5 class="card-title fw-semibold">Microsoft OneDrive</h5>
+          <p class="card-text">Save your files and photos to OneDrive and access them from any device, anywhere.</p>
+        </div>
+          <a href="#" class="green-btn">LEARN MORE</a>
+      </div>
+    </section>
+
+    <!--PRODUCTS SECTION 2 -->
+
+    <section class="ms-products-2 w-100 d-flex justify-content-center align-items-center">
+      <div class="w-100">
+        <p class="teams-text">Make amazing things happen together at home, work, and school</p>
+        <button class="teams-btn ">Sign up for free</button>
+      </div>
+
+      <div class="w-100">
+        <video src="./video/teams.mp4" class="teams-video" muted loop autoplay></video>
+      </div>
+    </section>
+
+
+    <div class="ms-products-3 mt-3 text-white">
+      <div class="row g-0 " >
+        <div class="col-md-6  position-relative">
+          <img src="./images/azure.jpg" class="img-fluid" alt="">
+          <div class="azure">
+                     <h2>Microsoft Azure</h2>
+              <p>Accelerate your migration and modernization with Azure</p>
+              <button class="white-btn">LEARN MORE</button>
+          </div>
+        </div>
+        <div class="col-md-6 position-relative">
+          <img src="./images/outlook.jpg" class="img-fluid"  alt="">
+          <div class="outlook">
+                <h2>Microsoft Outlook</h2>
+              <p>Connect, organize, and get things done</p>
+              <button class="white-btn">GET STARTED</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--PRODUCTS SECTION 5 -->
+    <section class="ms-products-4 w-100 d-flex justify-content-center align-items-center">
+      <div class="w-100">
+        <img src="./images/tech-community.jpg" class="img-fluid" alt="Microsoft Tech Community">
+      </div>
+      <div class="w-100 ms-3">
+ <h5 class="card-title text-light fs-1">Microsoft Tech Community</h5>
+            <p class="card-text text-light fs-4">
+              Collaborate, share and learn from experts
+            </p>
+            <button class="white-btn">GET STARTED</button>      </div>
+    </section>
+
+<!-- LINKS -->
+    <section class="ms-links ">
+      <div class="ms-links-col">
+        <ul>
+          <li class="ms-links-head">Microsoft Store</li>
+          <li><a href="#">Account Profile</a></li>
+          <li><a href="#">Download Center</a></li>
+          <li><a href="#">Microsoft Store support</a></li>
+          <li><a href="#">Returns</a></li>
+          <li><a href="#">Older tracking</a></li>
+        </ul>
+      </div>
+
+      <div class="ms-links-col">
+        <ul>
+          <li class="ms-links-head">Education</li>
+          <li><a href="#">Microsoft in education</a></li>
+          <li><a href="#">Devices for education</a></li>
+          <li><a href="#">Microsoft Teams for Education</a></li>
+          <li><a href="#">Microsoft 365 Education</a></li>
+          <li><a href="#">Education consultation appointment</a></li>
+        </ul>
+      </div>
+
+      <div class="ms-links-col">
+        <ul>
+          <li class="ms-links-head">Business</li>
+          <li><a href="#">Microsoft Cloud</a></li>
+          <li><a href="#">Microsoft Security</a></li>
+          <li><a href="#">Dynamics 365</a></li>
+          <li><a href="#">Microsoft 365</a></li>
+          <li><a href="#">Microsoft Power Platform</a></li>
+        </ul>
+      </div>
+
+      <div class="ms-links-col">
+        <ul>
+          <li class="ms-links-head">Developer & IT</li>
+          <li><a href="#">AppSource</a></li>
+          <li><a href="#">Visual Studio</a></li>
+          <li><a href="#">Developer Center</a></li>
+          <li><a href="#">Documentation</a></li>
+          <li><a href="#">Microsoft Learn</a></li>
+        </ul>
+      </div>
+
+      <div class="ms-links-col">
+        <ul>
+          <li class="ms-links-head">Company</li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About Microsoft</a></li>
+          <li><a href="#">Company news</a></li>
+          <li><a href="#">Privacy at Microsoft</a></li>
+          <li><a href="#">Investors</a></li>
+        </ul>
+      </div>
+    </section>
+
+<!-- SOCIAL LINKS -->
+      <section class="social-links">
+        <a href="#"><i class="bi bi-facebook"></i></a>
+        <a href="#"><i class="bi bi-twitter"></i></a>
+        <a href="#"><i class="bi bi-linkedin"></i></a>
+      </section>
+
+<!-- FOOTEER -->
+    <footer class="ms-footer">
+      <div class="ms-footer-inner">
+        
+        <div class="left-footer">
+          <i class="bi bi-globe me-2 fs-6"></i>English (United States)
+        </div>
+
+        <div class="right-footer">
+          <a href="#">Contact Microsoft</a>
+          <a href="#">Privacy</a>
+          <a href="#">Terms of use</a>
+          <a href="#">Trademarks</a>
+          <a href="#">About our ads</a>
+          <a href="#" style="text-decoration: none">&copy; Microsoft 2022</a>
+        </div>
+
+      </div>
+
+      <section class="copyright-section">
+        <p class="copyright-text">&copy;2022 | designed and coded by Gideon Godwin</p>
+      </section>
+
+    </footer>
+
+    </main>
+
+    <script src="./js/main.js"></script>
+  </body>
+</html>
