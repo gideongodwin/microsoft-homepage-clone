@@ -207,10 +207,8 @@
 /* PRODUCTS SECTION 4 */
 
 .ms-products-4 {
-  background: url(/images/background.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
   font-family: "Rubik", sans-serif;
+background: linear-gradient(to right, #ff0099, #493240);
 }
 
 /* LINKS */
@@ -332,7 +330,6 @@
 
   .ms-products-4 {
     flex-direction: column;
-      background: linear-gradient(to right, #0f0c29, #302b63, #24243e)
   }
 
   .ms-products-4 div:nth-child(2) {
