@@ -208,7 +208,7 @@
 
 .ms-products-4 {
   font-family: "Rubik", sans-serif;
-background: linear-gradient(to right, #ff0099, #493240);
+  background: linear-gradient(to right, #ff0099, #493240);
 }
 
 /* LINKS */
@@ -290,14 +290,14 @@ background: linear-gradient(to right, #ff0099, #493240);
   text-decoration: underline;
 }
 
-.copyright-section{
+.copyright-section {
   padding: 10px;
-    background: linear-gradient(to right, #232526, #414345)
+  background: linear-gradient(to right, #232526, #414345);
 }
 
-.copyright-text{
+.copyright-text {
   color: #fff;
-  text-align: center;  
+  text-align: center;
   font-family: "Rubik", sans-serif;
   font-size: 0.9rem;
 }
@@ -385,16 +385,15 @@ background: linear-gradient(to right, #ff0099, #493240);
   .search-box {
     background: none;
   }
-    .copyright-text{
-      letter-spacing: 0.8px;
-color: #fff000;
-    }
+  .copyright-text {
+    letter-spacing: 0.8px;
+    color: #fff000;
+  }
 }
 
 @media (max-width: 480px) {
   .ms-logo {
-    margin-left: 50px;
-    margin-bottom: 3px;
+    margin: auto;
   }
 
   .search-box {
